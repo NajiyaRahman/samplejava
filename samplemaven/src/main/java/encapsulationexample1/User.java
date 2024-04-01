@@ -13,7 +13,7 @@ public class User
 		int pin=sc.nextInt();*/
 		
 		Bank obj=new Bank();
-		obj.setter(1001);
+		obj.setter(1567);
 		obj.getter();
 		obj.validation();
 	}

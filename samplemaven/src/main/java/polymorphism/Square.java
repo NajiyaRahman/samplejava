@@ -13,7 +13,7 @@ public class Square extends Shape {
 		obj.draw();                                           /*Shape s;
 		                                                    s=new Rectangle();                                        
 		                                                    s.draw();
-		                                                    s.new Circle();
+		                                                    s=new Circle();
 		                                                    s.draw();*/
 		
 		

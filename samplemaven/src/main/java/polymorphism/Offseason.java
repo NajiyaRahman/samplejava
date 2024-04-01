@@ -10,7 +10,7 @@ public class Offseason extends Onseason {
 		System.out.println("Discount on offseason :" +discount);
 	}
 	
-	public static void main(String args[])
+	public void method()
 	{
 		/*Offseason obj=new Offseason();
 		obj.discount();
@@ -45,6 +45,11 @@ public class Offseason extends Onseason {
 		}
 		
 	}
+public static void main(String args[])
+{
+	Offseason obj1=new Offseason();
+	obj1.method();
+}
 }
 
 

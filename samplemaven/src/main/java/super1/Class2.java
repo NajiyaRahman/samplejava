@@ -4,6 +4,7 @@ public class Class2 extends Class1 {
 	int a=7;
 	public Class2()
 	{
+		super();
 		System.out.println(super.a);
 	    super.display();
 		System.out.println("show");

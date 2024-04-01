@@ -9,11 +9,16 @@ public class Video extends Google {
 	
 	public static void main(String args[])
 	{
-		Video obj=new Video();
+		/*Video obj=new Video();
 		obj.search();
 		
 		Image obj1=new Image();
-		obj1.search();
+		obj1.search();*/
+		Google g;
+		g=new Image();
+		g.search();
+		g=new Video();
+		g.search();
 	}
 
 }

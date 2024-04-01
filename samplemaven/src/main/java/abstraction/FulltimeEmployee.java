@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class FulltimeEmployee extends Employee {
 	
+	
 	public void calculatesalary()
 	{
 		salary=8*a;
@@ -12,12 +13,15 @@ public class FulltimeEmployee extends Employee {
 	
 	public static void main(String args[])
 	{
-		Scanner sc=new Scanner(System.in);
+		/*Scanner sc=new Scanner(System.in);
 		System.out.println("enter working hours");
-		 int hour=sc.nextInt();
+		 int hour=sc.nextInt();*/
 		 
 		 FulltimeEmployee obj=new FulltimeEmployee();
 		 obj.calculatesalary();
+		 
+		 Contractor obj1=new Contractor();
+		 obj1.calculatesalary();
 		
 	}
 
